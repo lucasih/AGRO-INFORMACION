@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html {
+	background: silver;
+}
+body{
+	width:750px ;
+	height: auto;
+	background: #red;
+	margin: auto;
+	border-radius: 20px 20px 0 0;
+	margin-top: 15px;
+	
+	}
+	header{
+		width:750px ;
+		height: 100px;
+		background: #ffffff;
+		border-radius: 30px 30px 0 0;}
+		
+		#Logo{
+			margin-top: 10px;
+			margin-left:10px ;
+			float: left;
+		}
+		#redes{ 
+		float:right;
+		margin-top:15px;
+		margin-right: 10px;}
+
+nav{
+    background: #000;}
+nav ul{ list-style: none;
+     display: table;}
+nav>ul>li{float:left;}
+nav>ul>li>a:hover{padding: 20px 17px 20px 17;
+	background: rgb(167,207,223);
+background: -moz-linear-gradient(top, rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%);
+background: -webkit-linear-gradient(top, rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%);
+background: linear-gradient(to bottom, rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%);
+filter: progid:DXImagetransform.microsoft.gradient(startcolorstr='#a7cfdf', endcolorstr='#23538a',gradienttype=0);}
+
+nav a{text-decoration: none;color: #bbb;font-size:12px;font-family:ARIAL BLACK;padding: 15PX;line-height: 50PX;}
+	
+nav a:hover{background: blue;}		 
+nav li{position: relative;}
+nav li ul{position: absolute; display: none;}			
+nav li:hover>ul{display: block;}
+nav>ul>li>ul>li{background: #000;width: 160px;border-right: 4px red solid;border-left: 4px red solid;}
+nav>ul>li>ul>li>ul>li{background: #000;width: 180px;border-right: 4px red solid;border-left: 4px red solid;}
+nav ul ul ul{left: 100%;top: 0%;}
